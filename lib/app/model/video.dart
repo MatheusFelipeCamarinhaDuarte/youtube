@@ -28,13 +28,13 @@ class Video{
 
   factory Video.fromJson(String source) => Video.fromMap(jsonDecode(source) as Map<String, dynamic>);
 
-  Map<String,dynamic> toMap(){
-    return<String,dynamic>{
-      'image':image,
-      'url':url,
-      'title':title,
-      'description':description,
-      'channel':channel,
+  Map<String, dynamic> toMap(){
+    return {
+      'image': image,
+      'url': url,
+      'title': title,
+      'channel': channel,
+      'description': description,
     };
   }
 
