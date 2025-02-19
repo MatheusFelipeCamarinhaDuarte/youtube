@@ -1,16 +1,12 @@
-# youtube
+# Interface do youtube
 
-A new Flutter project.
+Um projeto com o intuito de replicar a tela inicial do Youtube, retornando vídeos de acordo com pesquisas utilizando a API do Youtube.
 
-## Getting Started
+## Sobre o projeto
 
-This project is a starting point for a Flutter application.
+Durante o projeto, utilizei a API do youtube e bibliotecas do flutter, como a prórpia para integração com youtube e a biblioteca http para realizar as requisições.
 
-A few resources to get you started if this is your first Flutter project:
+Através di aplicativo utilizei desde estruturas simples como o Scaffold, coluns e Rows, quanto estrturas mais complexas, como o SearchDelegate, que utilizei para criar minha própria classe de campo de pesquisa.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Para este projeto, utilizei uma arquitetura MVVM (Model, View $ Viewmodel), separando inicialmente a parte visual da aplicação (na pasta UI) e a parte lógica (na pasta app) e de acordo com a necessidade fui subcategorizando, separando componentes visuais, as models para as classes, os serviços usados e a viewmodel de cada tela em que fosse necessário o controle de informações.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
