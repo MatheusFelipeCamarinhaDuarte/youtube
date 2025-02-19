@@ -57,7 +57,7 @@ class _InitialState extends State<Initial> {
   void didUpdateWidget(covariant Initial oldWidget) {
     super.didUpdateWidget(oldWidget);
     // Este aqui é chamado quando um widget é chamado acima deste e retornam com ele.
-    // Chama junto o build
+    // Chama junto o build. OBS: dispose não é chamado quando um Widget vem por cima.
     print("Chamado 2 - didUpdateWidget");
   }
 
